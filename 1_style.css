@@ -1,0 +1,206 @@
+
+body
+{
+background-image:url(1_back.png);
+color:"lightgray";
+}
+
+a:link,a:visited{color:gold;text-decoration: none;}
+a:hover,a:active{color:white;text-decoration: none;}
+h1
+{
+	text-align:center;
+	color:gold;
+}
+
+#all
+{	
+	color:lightgray;
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:20px;
+	vertical-align:center;
+}
+
+#head
+{
+	background-color:black;
+	width:750px;
+	height:100px;
+}
+
+#menu
+{
+	border-style:dotted;
+	border-color:gold;
+	border-width:5px;
+	background-color:#0F0F0F;
+	color:gold;
+	width:740px;
+	height:50px;
+	font-size:30px;
+	text-align:center;
+		
+}
+
+#submenu
+{	
+	padding:15px;
+	text-align:center;
+	
+	background-color:#0F0F0F;
+	color:gold;
+	font-size:20px;	
+	width:720px;
+	height:30px;
+	
+	
+}
+
+
+#leftmenu
+{	
+
+	
+	
+	overflow:auto;	
+	min-height:500px;
+	max-height:500px;
+	padding:5px;
+	font-size:16px;
+	background-color:#003700;
+	width:190px;
+	float:left;	
+}
+
+#main
+{
+	overflow:auto;
+	overflow-x:scroll;
+	font-size:15px;		
+	min-height:500px;
+	max-height:500px;
+	padding:5px;
+	background-color:#1A1A1A;	
+	width:540px;
+	float:left;
+}
+
+#end
+{
+	background-color:black;
+	font-size:20px;
+	color:lightgray;
+	height:20px;
+	padding-top:3px;
+	padding-bottom:6px;
+	width:750px;
+	clear:both;
+	text-align:center;	
+	font-style:bold;
+}
+
+.exam
+{
+ border-color:green;
+ border-width:20px;
+ border-style:solid;
+ border-collapse: collapse;
+}
+
+.comment
+{
+	/*color: #008000;*/
+	color:#32DF06;
+	font-style: italic;
+	
+}
+.operator
+{
+	/*#FF0000*/
+	/*font-weight: bold;
+	font-size:40px;*/
+	color:#FF5353;
+	
+	
+}
+.keywords
+{	
+	/*color: #4600FF;
+	color:#A22EBE;*/
+	color:#00709F;
+	
+}
+.cholerawieco
+{	/*color: #FD6500;*/
+	color:#FF00FF;
+	font-weight: bold;
+	
+}
+.leftbar
+{
+	
+	background-color:#000000;
+	color:#008000;
+}
+.licznik
+{
+	background-color:#000000;
+	color:gold;
+}
+ .truecomment
+{
+	
+	color:darkgreen;
+}
+.normal
+{
+	color:blue;
+}
+
+
+
+code.truecomment>span.keywords
+{
+	color:darkgreen!important;
+	
+}
+	code.truecomment>span.operator
+{
+	color:darkgreen!important;
+	
+}
+code.truecomment>span.cholerawieco
+{
+	color:darkgreen!important;
+	
+}
+
+span.keywords>span.comment
+{
+	color:#00709F!important;
+}
+span.normal>span.comment
+{
+	color:blue!important;
+}
+span.normal>span.keywords
+{
+	color:blue!important;
+	
+}
+span.normal>span.operator
+{
+	color:blue!important;
+	
+}
+span.normal>span.cholerawieco
+{
+	color:blue!important;
+	
+}
+
+
+
+
